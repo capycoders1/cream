@@ -31,7 +31,7 @@ end
 playSound(openSound)
 
 -- Load UI Library safely
-local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/capycoders1/cream/main/creamgamepassbuyer-lib/master/src.lua"))()
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 local GUI = Mercury:Create{
     Name = "Universal Bypass Suite",
     Size = UDim2.fromOffset(600, 400),
